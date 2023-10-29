@@ -3,81 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
     <title>Beautiful Login Page</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f1f1f1;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-        }
-
-        .login-container {
-            background-color: #fff;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-            overflow: hidden;
-            max-width: 400px;
-            width: 90%;
-            text-align: center;
-        }
-
-        .login-header {
-            background-color: #3498db;
-            color: #fff;
-            padding: 20px;
-            font-size: 24px;
-            font-weight: bold;
-        }
-
-        .login-form {
-            padding: 20px;
-        }
-
-        .login-form input {
-            width: 100%;
-            padding: 10px;
-            margin: 10px 0;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-        }
-
-        .login-form button {
-            background-color: #3498db;
-            color: #fff;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-
-        .login-form button:hover {
-            background-color: #2980b9;
-        }
-
-        .login-footer {
-            padding: 10px;
-            font-size: 14px;
-        }
-
-        /* Add some animations */
-        .login-container {
-            animation: fadeIn 1s ease-in-out;
-        }
-
-        @keyframes fadeIn {
-            0% {
-                opacity: 0;
-            }
-            100% {
-                opacity: 1;
-            }
-        }
-    </style>
 </head>
 <body>
     <div class="login-container">
@@ -90,6 +17,12 @@
         <div class="login-footer">
             Don't have an account? <a href="#">Sign Up</a>
         </div>
+        <div>
+            <p>This is a div with a button.</p>
+            <button class="styled-button" onclick="window.location.href='page2.html'">Go to Page 2</button>
+        </div>
     </div>
+    <script src="script.js"></script>
+
 </body>
 </html>
